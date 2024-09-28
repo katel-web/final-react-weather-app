@@ -9,6 +9,7 @@ function App() {
         <a
           href="https://github.com/katel-web/final-react-weather-app"
           target="_blank"
+          rel="noreferrer"
         >
           on GitHub
         </a>
