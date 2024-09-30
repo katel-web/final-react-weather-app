@@ -18,6 +18,7 @@ export default function Weather(props) {
       date: new Date(response.data.time * 1000),
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     });
+    setCity(props.defaultCity);
   }
 
   if (weatherData.ready) {
