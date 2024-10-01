@@ -1,10 +1,10 @@
 .Weather {
   font-family: Arial, sans-serif;
   text-align: left;
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid #6e6e6e7d;
   color: #585858;
   border-radius: 10px;
-  margin: 30px auto 0;
+  margin: 60px auto 0;
   padding: 16px;
 }
 
@@ -13,6 +13,7 @@
 
 .Weather h1 {
   padding-top: 20px;
+  color: black;
 }
 .Weather ul {
   list-style: none;
@@ -32,6 +33,7 @@
   margin-left: 10px;
   position: relative;
   top: 20px;
+  color: black;
 }
 
 .Weather .unit {
