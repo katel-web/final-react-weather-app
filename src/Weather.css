@@ -1,7 +1,8 @@
 .Weather {
   font-family: Arial, sans-serif;
   text-align: left;
-  border: 1px solid #6e6e6e7d;
+  /*border: 1px solid #6e6e6e7d;*/
+  border: 1px solid #cca0ff;
   color: #585858;
   background-color: white;
   border-radius: 10px;
@@ -10,8 +11,20 @@
 }
 
 .Weather form .btn {
+  background-color: #973cfe;
+  border-color: #973cfe;
+  transition: all 300ms ease-in-out;
+}
+.Weather form .btn:hover {
+  opacity: 0.8;
+}
+.unit a {
+  color: #973cfe;
 }
 
+footer a {
+  color: #973cfe;
+}
 .Weather h1 {
   padding-top: 20px;
   color: black;
