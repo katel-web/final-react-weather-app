@@ -18,6 +18,12 @@
 .Weather form .btn:hover {
   opacity: 0.8;
 }
+
+.Weather .form-control {
+  background-color: #f7f3fd;
+  border-color: #cca0ff;
+}
+
 .unit a {
   color: #973cfe;
 }
