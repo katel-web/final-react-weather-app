@@ -29,7 +29,6 @@ export default function Weather(props) {
   }
   function updateCityName(event) {
     setCity(event.target.value);
-    console.log(event.target.value);
   }
   function search() {
     let apiKey = "8ff30efd06o4d12f7ftb8b44c4ad300b";

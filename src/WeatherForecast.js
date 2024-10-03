@@ -4,7 +4,6 @@ import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay";
 
 export default function WeatherForecast(props) {
-  //console.log(props);
   const [loaded, setLoaded] = useState(false);
   const [forecast, setForecast] = useState(null);
 
@@ -12,13 +11,11 @@ export default function WeatherForecast(props) {
     setLoaded(false);
   }, [props.data]);
   function handleResponse(response) {
-    //console.log(response.data);
     setForecast(response.data.daily);
     setLoaded(true);
   }
 
   if (loaded) {
-    console.log(forecast);
     return (
       <div className="WeatherForecast">
         <div className="row">
@@ -29,6 +26,8 @@ export default function WeatherForecast(props) {
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
